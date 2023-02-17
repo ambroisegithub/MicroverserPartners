@@ -12,10 +12,23 @@
      <h1 id ="title">Hello World, we are software developers!</h1>
     <p id="description">Hello World</p>
     <form id = "survey-form">
-
-      <input type="text" id = "name" required></input>
-      <input type="email" id = "email" required></input>
-      <input max = 20 min = 1 type ="number"id="number"></input>
+<label id = "name-label">name</label>
+      <input type="text" id = "name" placeholder="name" required>
+      </input>
+      <label id = "email-label">email</label>
+      <input type="email" id = "email" placeholder="email" required></input>
+      <label id = "number-label">number</label>
+      <input max = 20 min = 1 type ="number"id="number" placeholder="number"></input>
+      <select id="dropdown">
+<option></option>
+  <option></option>
+      </select>
+      <select>
+<input type="radio" name="ambroise" value="ambroise"></input>  
+ <input type="radio" name="ambroise" value="ambroise"></input> 
+      </select>
+     
+   
     </form>
 
     <script  src="js/index.js"></script>
